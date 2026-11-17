@@ -7,3 +7,8 @@ git restore testing.py (restores testing.py from the index, including recovering
 git commit (records staged changes as a new commit)
 git status (checks whether there are remaining uncommitted changes)
 git log (shows the repository's commit history)
+git remote (lists the remote repositories configured for this local repository)
+git remote set-url origin <url> (changes the URL for the remote named origin)
+git push (uploads local commits to a remote repository)
+git clone <url> (copies a remote repository to your computer)
+Fork (creates your own GitHub copy of another user's repository; this is done on GitHub, not with a Git command)
