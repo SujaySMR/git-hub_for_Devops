@@ -12,4 +12,4 @@ git remote set-url origin <url> (changes the URL for the remote named origin)
 git push (uploads local commits to a remote repository)
 git clone <url> (copies a remote repository to your computer)
 Fork (creates your own GitHub copy of another user's repository; this is done on GitHub, not with a Git command)
-git pull
+git pull (fetches changes from a remote repository and integrates them into your current branch)
