@@ -1,0 +1,9 @@
+Git branches
+
+The current branch in this repository is dev. A branch is a separate line of work, so you can make changes without altering another branch.
+
+git branch (lists local branches; the current branch is marked with an asterisk)
+git switch dev (switches to the dev branch)
+git switch -c <branch-name> (creates a new branch and switches to it)
+git merge <branch-name> (merges the named branch into the branch you are currently on)
+git push -u origin dev (pushes dev to origin and sets it as the upstream branch)
